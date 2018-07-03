@@ -1,5 +1,5 @@
 var SerialPort = require('serialport');
-var port = new SerialPort('/dev/ttyACM0',{ //
+var port = new SerialPort('/dev/ttyACM0',{ //포트확인
 baudrate: 9600,
 parser: SerialPort.parsers.readline('\n')
 });
@@ -15,7 +15,7 @@ port.on('error', function(err) {
 
 
 port.on('data', function (data) {
-    
+
   console.log('Read and Send Data : ' + data);
 });
 
