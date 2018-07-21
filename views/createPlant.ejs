@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action="/plants" method="post">
+      <p><input type = "text" name="plantName" placeholder="Name"></p>
+      <p><input type = "number" name="waterCycle" placeholder="Water Cycle"></p>
+      <p><input type = "number" name="dayStart" placeholder="Day Start"></p>
+      <p><input type = "number" name="dayEnd" placeholder="Day End"></p>
+      <p><input type = "number" name="temperatureLT" placeholder="Highest Temperature"></p>
+      <p><input type = "number" name="temperatureGT" placeholder="Lowest Temperature"></p>
+      <p><input type = "number" name="vaporationLT" placeholder="Highest Vapor"></p>
+      <p><input type = "number" name="vaporationGT" placeholder="Lowest Vapor"></p>
+      <p>
+          <input type="submit">
+      </p>
+    </form>
+  </body>
+</html>
