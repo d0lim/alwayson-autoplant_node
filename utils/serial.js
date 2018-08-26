@@ -19,7 +19,7 @@ port.on('error', function(err) {
 
 port.on('data', function (data) {
 
-  switch (data.substring(0,3)) { 
+  switch (data.substring(0,3)) {
     case DHT: //DHT:temp10.00hum30.00
       status.temperature=Number(data.substring(8,13))
       status.humidity=Number(data.substring(16,21))

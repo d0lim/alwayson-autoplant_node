@@ -40,11 +40,11 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('Successfully connected to mongodb'))
   .catch(e => console.error(e));
 
+//Router
 app.use('/', indexRouter);
 app.use('/log?date', logRouter);
 app.use('/status', statusRouter);
 app.use('/plants', dbRouter);
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
