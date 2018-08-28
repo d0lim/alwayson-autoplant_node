@@ -32,20 +32,20 @@ plantSchema.statics.findAll = function () {
   return this.find({});
 };
 
-// Find One by plantid
-plantSchema.statics.findOneByTodoid = function (plantid) {
-  return this.findOne({ plantid });
+// Find One by plantName
+plantSchema.statics.findOneByPlantName = function (plantName) {
+  return this.findOne({ plantName });
 };
 
-// Update by plantid
-plantSchema.statics.updateByTodoid = function (plantid, payload) {
+// Update by plantName
+plantSchema.statics.updateByPlantName = function (plantName, payload) {
   // { new: true }: return the modified document rather than the original. defaults to false
-  return this.findOneAndUpdate({ plantid }, payload, { new: true });
+  return this.findOneAndUpdate({ plantName }, payload, { new: true });
 };
 
-// Delete by plantid
-plantSchema.statics.deleteByTodoid = function (plantid) {
-  return this.remove({ plantid });
+// Delete by plantName
+plantSchema.statics.deleteByPlantName = function (plantName) {
+  return this.remove({ plantName });
 };
 
 // Create Model & Export

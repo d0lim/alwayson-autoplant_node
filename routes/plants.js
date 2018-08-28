@@ -17,9 +17,9 @@ router.get('/createPlant', function(req, res) {
   res.render('createPlant', {title: 'Creating Plant Database'});
 });
 
-// Find One by plantid
-router.get('/plantid/:plantid', (req, res) => {
-  Plant.findOneByPlantid(req.params.plantid)
+// Find One by plantName
+router.get('/name/:plantName', (req, res) => {
+  Plant.findOneByPlantName(req.params.plantName)
     .then((plant) => {
       if (!plant) return res.status(404).send({ err: 'Plant not found' });
       res.send(`findOne successful: ${plant}`);
@@ -37,16 +37,16 @@ router.post('/', (req, res) => {
     
 });
 
-// Update by palntid
-router.put('/plantid/:plantid', (req, res) => {
-  Plant.updateByPlantid(req.params.plantid, req.body)
+// Update by palntName
+router.put('/name/:plantName', (req, res) => {
+  Plant.updateByPlantName(req.params.plantName, req.body)
     .then(plant => res.send(plant))
     .catch(err => res.status(500).send(err));
 });
 
-// Delete by plantid
-router.delete('/plantid/:plantid', (req, res) => {
-  Plant.deleteByPlantid(req.params.plantid)
+// Delete by plantName
+router.delete('/name/:plantName', (req, res) => {
+  Plant.deleteByPlantName(req.params.plantName)
     .then(() => res.sendStatus(200))
     .catch(err => res.status(500).send(err));
 });
