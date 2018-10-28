@@ -1,0 +1,221 @@
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten] MongoDB starting : pid=15641 port=27017 dbpath=../data/db 64-bit host=imdong-yeong-ui-MacBook-Pro.local
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten] allocator: system
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten] modules: none
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten] build environment:
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-17T20:25:07.764+0900 I CONTROL  [initandlisten] options: { config: "./mongodb/mongodb.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "../data/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "./log", quiet: false } }
+2018-07-17T20:25:07.767+0900 I STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory ../data/db not found., terminating
+2018-07-17T20:25:07.767+0900 I CONTROL  [initandlisten] now exiting
+2018-07-17T20:25:07.767+0900 I CONTROL  [initandlisten] shutting down with code:100
+2018-07-17T20:25:36.984+0900 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten] MongoDB starting : pid=15763 port=27017 dbpath=../data/db 64-bit host=imdong-yeong-ui-MacBook-Pro.local
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten] allocator: system
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten] modules: none
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten] build environment:
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-17T20:25:37.054+0900 I CONTROL  [initandlisten] options: { config: "./mongodb/mongodb.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "../data/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "./log", quiet: false } }
+2018-07-17T20:25:37.054+0900 I STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory ../data/db not found., terminating
+2018-07-17T20:25:37.055+0900 I CONTROL  [initandlisten] now exiting
+2018-07-17T20:25:37.056+0900 I CONTROL  [initandlisten] shutting down with code:100
+2018-07-17T20:26:51.005+0900 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten] MongoDB starting : pid=16002 port=27017 dbpath=/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db 64-bit host=imdong-yeong-ui-MacBook-Pro.local
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten] allocator: system
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten] modules: none
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten] build environment:
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-17T20:26:51.226+0900 I CONTROL  [initandlisten] options: { config: "./mongodb/mongodb.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "./log", quiet: false } }
+2018-07-17T20:26:51.239+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-17T20:26:51.815+0900 I STORAGE  [initandlisten] WiredTiger message [1531826811:815627][16002:0x7fff94f85380], txn-recover: Set global recovery timestamp: 0
+2018-07-17T20:26:51.834+0900 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-17T20:26:51.885+0900 I CONTROL  [initandlisten] 
+2018-07-17T20:26:51.885+0900 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-17T20:26:51.885+0900 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-17T20:26:51.885+0900 I CONTROL  [initandlisten] 
+2018-07-17T20:26:51.900+0900 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: a9d7f48b-e1bf-466b-87b7-b7a24f1eb8a5
+2018-07-17T20:26:51.932+0900 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.0
+2018-07-17T20:26:51.944+0900 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: c84cee2d-ba8d-4898-9367-e496ec1e968d
+2018-07-17T20:26:51.982+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db/diagnostic.data'
+2018-07-17T20:26:51.986+0900 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-17T20:26:51.986+0900 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: e6d40441-ae1d-4943-8890-0bc029464f77
+2018-07-17T20:26:52.024+0900 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2018-07-17T20:26:52.025+0900 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-07-17T20:26:52.034+0900 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+2018-07-17T20:27:27.880+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63031 #1 (1 connection now open)
+2018-07-17T20:27:27.897+0900 I NETWORK  [conn1] received client metadata from 127.0.0.1:63031 conn1: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-17T20:27:27.959+0900 I STORAGE  [conn1] createCollection: <db-name>.plants with generated UUID: 9b337b79-d622-4a52-8fbc-b0818004b5f4
+2018-07-17T20:27:28.023+0900 I INDEX    [conn1] build index on: <db-name>.plants properties: { v: 2, unique: true, key: { plantid: 1 }, name: "plantid_1", ns: "<db-name>.plants", background: true }
+2018-07-17T20:27:28.024+0900 I INDEX    [conn1] build index done.  scanned 0 total records. 0 secs
+2018-07-17T20:27:28.042+0900 I INDEX    [conn1] build index on: <db-name>.plants properties: { v: 2, unique: true, key: { plantName: 1 }, name: "plantName_1", ns: "<db-name>.plants", background: true }
+2018-07-17T20:27:28.042+0900 I INDEX    [conn1] build index done.  scanned 0 total records. 0 secs
+2018-07-17T20:27:28.053+0900 I NETWORK  [conn1] end connection 127.0.0.1:63031 (0 connections now open)
+2018-07-17T20:27:30.218+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63034 #2 (1 connection now open)
+2018-07-17T20:27:30.222+0900 I NETWORK  [conn2] received client metadata from 127.0.0.1:63034 conn2: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-17T20:27:39.063+0900 I NETWORK  [conn2] end connection 127.0.0.1:63034 (0 connections now open)
+2018-07-17T20:27:40.450+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63043 #3 (1 connection now open)
+2018-07-17T20:27:40.456+0900 I NETWORK  [conn3] received client metadata from 127.0.0.1:63043 conn3: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-17T20:27:49.055+0900 I NETWORK  [conn3] end connection 127.0.0.1:63043 (0 connections now open)
+2018-07-17T20:27:50.666+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63059 #4 (1 connection now open)
+2018-07-17T20:27:50.671+0900 I NETWORK  [conn4] received client metadata from 127.0.0.1:63059 conn4: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-17T20:27:52.052+0900 I NETWORK  [conn4] end connection 127.0.0.1:63059 (0 connections now open)
+2018-07-17T20:27:53.193+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63063 #5 (1 connection now open)
+2018-07-17T20:27:53.198+0900 I NETWORK  [conn5] received client metadata from 127.0.0.1:63063 conn5: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-17T20:27:59.052+0900 I NETWORK  [conn5] end connection 127.0.0.1:63063 (0 connections now open)
+2018-07-17T20:28:00.264+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63067 #6 (1 connection now open)
+2018-07-17T20:28:00.270+0900 I NETWORK  [conn6] received client metadata from 127.0.0.1:63067 conn6: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-17T20:28:05.524+0900 I NETWORK  [conn6] end connection 127.0.0.1:63067 (0 connections now open)
+2018-07-17T20:28:10.499+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63072 #7 (1 connection now open)
+2018-07-17T20:28:10.504+0900 I NETWORK  [conn7] received client metadata from 127.0.0.1:63072 conn7: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-17T20:29:47.421+0900 I NETWORK  [conn7] end connection 127.0.0.1:63072 (0 connections now open)
+2018-07-17T20:29:59.987+0900 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-07-17T20:29:59.987+0900 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-17T20:29:59.987+0900 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-17T20:29:59.995+0900 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-17T20:29:59.995+0900 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-17T20:29:59.998+0900 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-17T20:30:00.072+0900 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-07-17T20:30:00.074+0900 I CONTROL  [signalProcessingThread] now exiting
+2018-07-17T20:30:00.074+0900 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-07-18T23:23:06.868+0900 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T23:23:06.952+0900 I CONTROL  [initandlisten] MongoDB starting : pid=34165 port=27017 dbpath=/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db 64-bit host=imdong-yeong-ui-MacBook-Pro.local
+2018-07-18T23:23:06.952+0900 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T23:23:06.952+0900 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T23:23:06.952+0900 I CONTROL  [initandlisten] allocator: system
+2018-07-18T23:23:06.952+0900 I CONTROL  [initandlisten] modules: none
+2018-07-18T23:23:06.952+0900 I CONTROL  [initandlisten] build environment:
+2018-07-18T23:23:06.952+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T23:23:06.953+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T23:23:06.953+0900 I CONTROL  [initandlisten] options: { config: "./mongodb/mongodb.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "./log", quiet: false } }
+2018-07-18T23:23:06.961+0900 I STORAGE  [initandlisten] Detected data files in /Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T23:23:06.967+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T23:23:07.698+0900 I STORAGE  [initandlisten] WiredTiger message [1531923787:698041][34165:0x7fff94f85380], txn-recover: Main recovery loop: starting at 1/33408
+2018-07-18T23:23:07.803+0900 I STORAGE  [initandlisten] WiredTiger message [1531923787:803398][34165:0x7fff94f85380], txn-recover: Recovering log 1 through 2
+2018-07-18T23:23:07.870+0900 I STORAGE  [initandlisten] WiredTiger message [1531923787:870965][34165:0x7fff94f85380], txn-recover: Recovering log 2 through 2
+2018-07-18T23:23:07.921+0900 I STORAGE  [initandlisten] WiredTiger message [1531923787:921974][34165:0x7fff94f85380], txn-recover: Set global recovery timestamp: 0
+2018-07-18T23:23:07.992+0900 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T23:23:08.039+0900 I CONTROL  [initandlisten] 
+2018-07-18T23:23:08.039+0900 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T23:23:08.039+0900 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T23:23:08.039+0900 I CONTROL  [initandlisten] 
+2018-07-18T23:23:08.142+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db/diagnostic.data'
+2018-07-18T23:23:08.150+0900 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T23:23:22.227+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63111 #1 (1 connection now open)
+2018-07-18T23:23:22.242+0900 I NETWORK  [conn1] received client metadata from 127.0.0.1:63111 conn1: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-18T23:23:52.071+0900 I NETWORK  [conn1] end connection 127.0.0.1:63111 (0 connections now open)
+2018-07-18T23:23:55.477+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:63137 #2 (1 connection now open)
+2018-07-18T23:23:55.483+0900 I NETWORK  [conn2] received client metadata from 127.0.0.1:63137 conn2: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-18T23:39:31.915+0900 I NETWORK  [conn2] end connection 127.0.0.1:63137 (0 connections now open)
+2018-07-18T23:39:36.770+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:64018 #3 (1 connection now open)
+2018-07-18T23:39:36.775+0900 I NETWORK  [conn3] received client metadata from 127.0.0.1:64018 conn3: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-18T23:40:35.076+0900 I NETWORK  [conn3] end connection 127.0.0.1:64018 (0 connections now open)
+2018-07-18T23:41:14.668+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:64140 #4 (1 connection now open)
+2018-07-18T23:41:14.673+0900 I NETWORK  [conn4] received client metadata from 127.0.0.1:64140 conn4: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-18T23:44:35.638+0900 I NETWORK  [conn4] end connection 127.0.0.1:64140 (0 connections now open)
+2018-07-18T23:44:43.907+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:64350 #5 (1 connection now open)
+2018-07-18T23:44:43.916+0900 I NETWORK  [conn5] received client metadata from 127.0.0.1:64350 conn5: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-18T23:45:30.946+0900 I NETWORK  [conn5] end connection 127.0.0.1:64350 (0 connections now open)
+2018-07-18T23:56:26.588+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:65039 #6 (1 connection now open)
+2018-07-18T23:56:26.592+0900 I NETWORK  [conn6] received client metadata from 127.0.0.1:65039 conn6: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-18T23:56:51.122+0900 I NETWORK  [conn6] end connection 127.0.0.1:65039 (0 connections now open)
+2018-07-18T23:57:20.774+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:65083 #7 (1 connection now open)
+2018-07-18T23:57:20.779+0900 I NETWORK  [conn7] received client metadata from 127.0.0.1:65083 conn7: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-18T23:57:33.777+0900 I NETWORK  [conn7] end connection 127.0.0.1:65083 (0 connections now open)
+2018-07-19T00:01:33.610+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:65308 #8 (1 connection now open)
+2018-07-19T00:01:33.615+0900 I NETWORK  [conn8] received client metadata from 127.0.0.1:65308 conn8: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:01:50.575+0900 I NETWORK  [conn8] end connection 127.0.0.1:65308 (0 connections now open)
+2018-07-19T00:03:11.925+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:65405 #9 (1 connection now open)
+2018-07-19T00:03:11.930+0900 I NETWORK  [conn9] received client metadata from 127.0.0.1:65405 conn9: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:04:05.226+0900 I NETWORK  [conn9] end connection 127.0.0.1:65405 (0 connections now open)
+2018-07-19T00:07:08.284+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:49235 #10 (1 connection now open)
+2018-07-19T00:07:08.289+0900 I NETWORK  [conn10] received client metadata from 127.0.0.1:49235 conn10: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:19:09.585+0900 I NETWORK  [conn10] end connection 127.0.0.1:49235 (0 connections now open)
+2018-07-19T00:19:16.584+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:49953 #11 (1 connection now open)
+2018-07-19T00:19:16.588+0900 I NETWORK  [conn11] received client metadata from 127.0.0.1:49953 conn11: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:19:32.446+0900 I NETWORK  [conn11] end connection 127.0.0.1:49953 (0 connections now open)
+2018-07-19T00:36:40.031+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:51202 #12 (1 connection now open)
+2018-07-19T00:36:40.036+0900 I NETWORK  [conn12] received client metadata from 127.0.0.1:51202 conn12: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:37:04.253+0900 I NETWORK  [conn12] end connection 127.0.0.1:51202 (0 connections now open)
+2018-07-19T00:41:58.853+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:51472 #13 (1 connection now open)
+2018-07-19T00:41:58.858+0900 I NETWORK  [conn13] received client metadata from 127.0.0.1:51472 conn13: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:42:36.000+0900 I NETWORK  [conn13] end connection 127.0.0.1:51472 (0 connections now open)
+2018-07-19T00:42:39.852+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:51512 #14 (1 connection now open)
+2018-07-19T00:42:39.856+0900 I NETWORK  [conn14] received client metadata from 127.0.0.1:51512 conn14: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:43:01.989+0900 I NETWORK  [conn14] end connection 127.0.0.1:51512 (0 connections now open)
+2018-07-19T00:43:48.268+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:51579 #15 (1 connection now open)
+2018-07-19T00:43:48.273+0900 I NETWORK  [conn15] received client metadata from 127.0.0.1:51579 conn15: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:44:25.047+0900 I NETWORK  [conn15] end connection 127.0.0.1:51579 (0 connections now open)
+2018-07-19T00:48:34.885+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:51819 #16 (1 connection now open)
+2018-07-19T00:48:34.890+0900 I NETWORK  [conn16] received client metadata from 127.0.0.1:51819 conn16: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T00:50:10.605+0900 I NETWORK  [conn16] end connection 127.0.0.1:51819 (0 connections now open)
+2018-07-19T00:50:14.009+0900 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-07-19T00:50:14.010+0900 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-19T00:50:14.016+0900 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-19T00:50:14.037+0900 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-19T00:50:14.043+0900 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-19T00:50:14.064+0900 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-19T00:50:14.169+0900 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-07-19T00:50:14.170+0900 I CONTROL  [signalProcessingThread] now exiting
+2018-07-19T00:50:14.170+0900 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-07-19T21:35:03.012+0900 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-19T21:35:03.136+0900 I CONTROL  [initandlisten] MongoDB starting : pid=96708 port=27017 dbpath=/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db 64-bit host=imdong-yeong-ui-MacBook-Pro.local
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten] allocator: system
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten] modules: none
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten] build environment:
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-19T21:35:03.137+0900 I CONTROL  [initandlisten] options: { config: "./mongodb/mongodb.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "./log", quiet: false } }
+2018-07-19T21:35:03.140+0900 I STORAGE  [initandlisten] Detected data files in /Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-19T21:35:03.141+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3584M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-19T21:35:03.936+0900 I STORAGE  [initandlisten] WiredTiger message [1532003703:936351][96708:0x7fff94f85380], txn-recover: Main recovery loop: starting at 2/56448
+2018-07-19T21:35:04.062+0900 I STORAGE  [initandlisten] WiredTiger message [1532003704:62146][96708:0x7fff94f85380], txn-recover: Recovering log 2 through 3
+2018-07-19T21:35:04.144+0900 I STORAGE  [initandlisten] WiredTiger message [1532003704:144613][96708:0x7fff94f85380], txn-recover: Recovering log 3 through 3
+2018-07-19T21:35:04.205+0900 I STORAGE  [initandlisten] WiredTiger message [1532003704:204991][96708:0x7fff94f85380], txn-recover: Set global recovery timestamp: 0
+2018-07-19T21:35:04.274+0900 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-19T21:35:04.319+0900 I CONTROL  [initandlisten] 
+2018-07-19T21:35:04.319+0900 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-19T21:35:04.319+0900 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-19T21:35:04.319+0900 I CONTROL  [initandlisten] 
+2018-07-19T21:35:04.377+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/limdongyoung/Documents/vsCode/smartPlant/alwayson-autoplant_node/data/db/diagnostic.data'
+2018-07-19T21:35:04.385+0900 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-19T21:35:09.375+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:50820 #1 (1 connection now open)
+2018-07-19T21:35:09.389+0900 I NETWORK  [conn1] received client metadata from 127.0.0.1:50820 conn1: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T21:36:26.351+0900 I NETWORK  [conn1] end connection 127.0.0.1:50820 (0 connections now open)
+2018-07-19T21:36:38.532+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:50950 #2 (1 connection now open)
+2018-07-19T21:36:38.533+0900 I NETWORK  [conn2] received client metadata from 127.0.0.1:50950 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.0" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "17.7.0" } }
+2018-07-19T21:59:29.132+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:52982 #3 (2 connections now open)
+2018-07-19T21:59:29.136+0900 I NETWORK  [conn3] received client metadata from 127.0.0.1:52982 conn3: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T22:00:10.877+0900 I NETWORK  [conn3] end connection 127.0.0.1:52982 (1 connection now open)
+2018-07-19T22:00:14.032+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:53049 #4 (2 connections now open)
+2018-07-19T22:00:14.036+0900 I NETWORK  [conn4] received client metadata from 127.0.0.1:53049 conn4: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T22:03:30.520+0900 I NETWORK  [conn4] end connection 127.0.0.1:53049 (1 connection now open)
+2018-07-19T22:04:46.172+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:53472 #5 (2 connections now open)
+2018-07-19T22:04:46.180+0900 I NETWORK  [conn5] received client metadata from 127.0.0.1:53472 conn5: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T22:07:05.999+0900 I COMMAND  [conn2] CMD: dropIndexes test.collectionNameHere
+2018-07-19T22:08:05.237+0900 I NETWORK  [conn5] end connection 127.0.0.1:53472 (1 connection now open)
+2018-07-19T22:08:07.799+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:53767 #6 (2 connections now open)
+2018-07-19T22:08:07.804+0900 I NETWORK  [conn6] received client metadata from 127.0.0.1:53767 conn6: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T22:12:03.393+0900 I COMMAND  [conn2] CMD: dropIndexes <db-name>.plants
+2018-07-19T22:12:13.669+0900 I NETWORK  [conn6] end connection 127.0.0.1:53767 (1 connection now open)
+2018-07-19T22:12:17.362+0900 I NETWORK  [listener] connection accepted from 127.0.0.1:54143 #7 (2 connections now open)
+2018-07-19T22:12:17.366+0900 I NETWORK  [conn7] received client metadata from 127.0.0.1:54143 conn7: { driver: { name: "nodejs", version: "3.1.1" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.7.0" }, platform: "Node.js v8.11.1, LE, mongodb-core: 3.1.0" }
+2018-07-19T22:49:03.696+0900 I NETWORK  [conn7] end connection 127.0.0.1:54143 (1 connection now open)
+2018-07-19T22:49:10.886+0900 I NETWORK  [conn2] end connection 127.0.0.1:50950 (0 connections now open)
+2018-07-19T22:49:16.855+0900 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+2018-07-19T22:49:16.855+0900 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-19T22:49:16.855+0900 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-19T22:49:16.868+0900 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-19T22:49:16.868+0900 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-19T22:49:16.871+0900 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-19T22:49:17.020+0900 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-07-19T22:49:17.027+0900 I CONTROL  [signalProcessingThread] now exiting
+2018-07-19T22:49:17.028+0900 I CONTROL  [signalProcessingThread] shutting down with code:0
