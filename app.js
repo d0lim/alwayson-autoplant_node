@@ -7,8 +7,9 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 
 var logRouter = require('./routes/log');
-var statusRouter = require('./routes/status');
+var statusRouter = require('./routes/statusCheck');
 
+var serial = require('./utils/serial');
 var app = express();
 
 // view engine setup
@@ -22,7 +23,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/log?date', logRouter);
+app.use('/log', logRouter);
 app.use('/status', statusRouter);
 
 

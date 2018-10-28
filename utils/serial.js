@@ -1,9 +1,9 @@
 var SerialPort = require('serialport');
-var status= require('../routs/status')
+var status  =  require('./status');
 
 var port = new SerialPort('/dev/ttyACM0',{ //포트확인
-baudrate: 9600,
-parser: SerialPort.parsers.readline('\n')
+  baudRate: 9600,
+parser: new SerialPort.parsers.Readline('\n')
 });
 
 
@@ -35,81 +35,67 @@ port.on('data', function (data) {
   console.log('Read and Send Data : ' + data);
 });
 
-module.exports.motion.waterOn=function(){
-  port.write('W1', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-}
-module.exports.motion.waterOff=function(){
-  port.write('W0', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
+module.exports={
+  
+  waterOn : function(){
+    port.write('W1', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
+  },
+  waterOff : function(){
+    port.write('W0', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
 
-}
-module.exports.motion.heaterOn=function(){
-  port.write('H1', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-
-}
-module.exports.motion.heaterOff=function(){
-  port.write('H0', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-}
-module.exports.motion.humidifierOn=function(){
-  port.write('U1', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-}
-module.exports.motion.humidifierOff=function(){
-  port.write('U0', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-}
-module.exports.motion.LEDOn=function(){
-  port.write('L1', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-}
-module.exports.motion.LEDOff=function(){
-  port.write('L0', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-}
-/* 센서를 위해서 껐다켰다가 필요하다고 함.
-var SoilOn=function(){
-  port.write('L0', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
+  },
+  heaterOn : function(){
+    port.write('H1', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
+  },
+  heaterOff : function(){
+    port.write('H0', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
+  },
+  humidifierOn : function(){
+    port.write('U1', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
+  },
+  humidifierOff : function(){
+    port.write('U0', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
+  },
+  LEDOn : function(){
+    port.write('L1', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
+  },
+  LEDOff : function(){
+    port.write('L0', function(err) {
+      if (err) {
+        return console.log('Error on write: ', err.message);
+      }
+    });
+  }
 }
 
-var SoilOff=function(){
-  port.write('L0', function(err) {
-    if (err) {
-      return console.log('Error on write: ', err.message);
-    }
-  });
-}
-*/
 var DHT=function(){
   port.write('DHT', function(err) {
     if (err) {
